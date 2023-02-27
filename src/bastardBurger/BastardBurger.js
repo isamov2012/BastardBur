@@ -27,14 +27,14 @@ function BastardBurger() {
         </div>
         <div>
           <p class="h4">Adapt</p>
-          <p style={{ fontSize: 12, color: "grey  " }}>Required*</p>
+          <p style={{ fontSize: 13, color: "grey  " }}>Required*</p>
           <input type="radio" />
           <label>Vegan Norrköping</label>
         </div>
         <div>
           <br />
           <p class="h4">Add</p>
-          <p style={{ fontSize: 12, color: "grey  " }}>Choose up to 4</p>
+          <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 4</p>
           <div id="ingr"></div>
           <input name="VeganPatty" type="checkBox" />
           <label htmlFor="VeganPatty">Vegan Patty</label>
@@ -49,16 +49,9 @@ function BastardBurger() {
           <label htmlFor="VeganPatty">Red</label>
         </div>
         <div>
-          <select
-            className="form-select form-select-lg mb-3"
-            aria-label="Default select example"
-          >
-            <option>Remove</option>
-            <option>California</option>
-            <option>Florida</option>
-            <option>Kentucky</option>
-            <option>Texas</option>
-          </select>
+          <br />
+          <p class="h4">Remove</p>
+          <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 4</p>
           <input type="checkBox" />
           <label>Vegan Patty</label>
           <br />
@@ -69,41 +62,20 @@ function BastardBurger() {
           <label>Sallad</label>
           <br />
           <input type="checkBox" />
-          <label>Red</label>
-          <br />
-          <input type="checkBox" />
-          <label>Red</label>
-          <br />
-          <input type="checkBox" />
-          <label>Red</label>
+          <label>Red Onion</label>
           <br />
         </div>
         <div>
-          <select
-            className="form-select form-select-lg mb-3"
-            aria-label="Default select example"
-          >
-            <option>Remove</option>
-            <option>California</option>
-            <option>Florida</option>
-            <option>Kentucky</option>
-            <option>Texas</option>
-          </select>
+          <br />
+          <p class="h4">Change</p>
+          <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 1</p>
           <input type="radio" />
           <label>Gluten free bread</label>
         </div>
         <div>
-          <select
-            className="form-select form-select-lg mb-3"
-            aria-label="Default select example"
-          >
-            <option>Remove</option>
-            <option>California</option>
-            <option>Florida</option>
-            <option>Kentucky</option>
-            <option>Texas</option>
-          </select>
-          {/*  */}
+          <br />
+          <p class="h4">Choose Your Side</p>
+          <p style={{ fontSize: 13, color: "grey  " }}>Required</p>
           <input name="ingredient" type="radio" />
           <label>Shack Fries</label>
           <br />
@@ -117,16 +89,9 @@ function BastardBurger() {
           <label>Sweet Potato Large</label>
         </div>
         <div>
-          <select
-            className="form-select form-select-lg mb-3"
-            aria-label="Default select example"
-          >
-            <option>Add a plant based dip</option>
-            <option>California</option>
-            <option>Florida</option>
-            <option>Kentucky</option>
-            <option>Texas</option>
-          </select>
+          <br />
+          <p class="h4">Add a plant based dip</p>
+          <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 1</p>
           <input type="checkBox" />
           <label>Bastard original Dip</label>
           <br />
@@ -141,16 +106,9 @@ function BastardBurger() {
           <br />
         </div>
         <div>
-          <select
-            className="form-select form-select-lg mb-3"
-            aria-label="Default select example"
-          >
-            <option>Choose your drink</option>
-            <option>California</option>
-            <option>Florida</option>
-            <option>Kentucky</option>
-            <option>Texas</option>
-          </select>
+          <br />
+          <p class="h4">Choose Your Drink</p>
+          <p style={{ fontSize: 13, color: "grey  " }}>Required</p>
           <input id="coca" name="ingredient1" type="radio" />
           <label htmlFor="coca">Coca Cola</label>
           <br />
@@ -161,12 +119,14 @@ function BastardBurger() {
           <label htmlFor="Fanta">Fanta</label>
           <br />
         </div>
+        <br />
         <input
           type="button"
           className="btn btn-primary"
           value=" Add to order"
         />
         <div>
+          <br />
           <input
             onClick={Increment}
             type="button"
