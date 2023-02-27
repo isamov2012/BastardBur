@@ -26,7 +26,7 @@ function BastardBurger() {
           </p>
         </div>
         <div>
-          <p class="h4">Adapt</p>
+          <p clasNAmes="h4">Adapt</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Required*</p>
           <input type="radio" id="radio1" name="group1" />
           <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
@@ -35,7 +35,7 @@ function BastardBurger() {
         </div>
         <div>
           <br />
-          <p class="h4">Add</p>
+          <p className="h4">Add</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 4</p>
           <div id="ingr"></div>
           <input type="checkbox" id="checkbox1" name="group1" />
@@ -60,7 +60,7 @@ function BastardBurger() {
         </div>
         <div>
           <br />
-          <p class="h4">Remove</p>
+          <p className="h4">Remove</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 4</p>
           <input type="checkbox" id="checkbox5" name="group1" />
           <label htmlFor="checkbox5" style={{ paddingLeft: "6px" }}>
@@ -85,7 +85,7 @@ function BastardBurger() {
         </div>
         <div>
           <br />
-          <p class="h4">Change</p>
+          <p className="h4">Change</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 1</p>
           <input type="radio" id="radio2" name="group1" />
           <label htmlFor="radio2" style={{ paddingLeft: "6px" }}>
@@ -94,7 +94,7 @@ function BastardBurger() {
         </div>
         <div>
           <br />
-          <p class="h4">Choose Your Side</p>
+          <p className="h4">Choose Your Side</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Required</p>
           <input type="radio" id="radio3" name="group1" />
           <label htmlFor="radio3" style={{ paddingLeft: "6px" }}>
@@ -118,7 +118,7 @@ function BastardBurger() {
         </div>
         <div>
           <br />
-          <p class="h4">Add a plant based dip</p>
+          <p className="h4">Add a plant based dip</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 1</p>
           <input type="checkbox" id="checkbox12" name="group1" />
           <label htmlFor="checkbox12" style={{ paddingLeft: "6px" }}>
@@ -142,7 +142,7 @@ function BastardBurger() {
         </div>
         <div>
           <br />
-          <p class="h4">Choose Your Drink</p>
+          <p className="h4">Choose Your Drink</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Required</p>
           <input type="radio" id="radio7" name="group1" />
           <label htmlFor="radio7" style={{ paddingLeft: "6px" }}>
