@@ -174,7 +174,7 @@ function BastardBurger() {
             className="button3"
             value="+"
           />
-          <span>{state}</span>
+          <span style={{ padding: 15 }}>{state}</span>
           <input
             onClick={Decrement}
             type="button"
