@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Email from "./email/Email";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
+import BastardBurger from "./bastardBurger/BastardBurger";
+import "./bastardBurger/custom.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
-  <React.StrictMode>
-    <h1>Hejhej</h1>
-    <Email />
-    <Email />
-    <p> paragraph</p>
-  </React.StrictMode>
+  <>
+    <BastardBurger />
+  </>
 );

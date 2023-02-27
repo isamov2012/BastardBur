@@ -1,0 +1,36 @@
+/* alla element som heter "body" */
+
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+/* alla element med klassen "box*/
+.box {
+  padding: 30px;
+  background-color: white;
+
+  box-shadow: 0 0 5px 0 #888888;
+}
+
+.container {
+  max-width: 500px;
+}
+
+.movie__star {
+  width: 2rem;
+}
+
+.movie__info {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.radioCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radioDiv {
+  height: 100px;
+}

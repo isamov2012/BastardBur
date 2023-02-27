@@ -1,33 +1,34 @@
 import { useState } from "react";
 
-function Email() {
-  const [input, setInput] = useState("oo@fsdfsd");
-  const changeEmailAddress = () => setInput("klasda@vsdfs");
+const Email = () => {
+  const [input, setInput] = useState("asdasdas");
+  const inputChange = (event) => setInput(event.target.value);
+  const changeEmailAddress = () => {
+    setInput("klas@katt.nu");
+  };
 
-  function InputChanged(event) {
-    setInput(event.target.value);
-  }
-  // const buttonClicked = () => console.log(" Button clicked");
   return (
     <div className="center">
       <article className="box">
-        <h1>Sign up</h1>
+        <h1 className="display-4 mb-4">Sign up</h1>
         <div className="mb-3">
-          <label htmlFor="emailInput" className="form-label">
+          <label for="emailInput" className="form-label">
             Email address
           </label>
           <input
             value={input}
-            onChange={InputChanged}
+            onChange={inputChange}
             type="email"
             className="form-control"
             id="emailInput"
             placeholder="name@example.com"
           />
         </div>
-        <div className="alert alert-primary">{input}</div>
+        <div className="alert alert-primary" role="alert">
+          {input}
+        </div>
         <div className="mb-3">
-          <label htmlFor="emailInput-Again" className="form-label">
+          <label for="emailInput-Again" className="form-label">
             Enter again
           </label>
           <input
@@ -38,14 +39,14 @@ function Email() {
           />
         </div>
         <button
-          type="button"
           onClick={changeEmailAddress}
+          type="button"
           className="btn btn-primary btn-lg mb-4">
           Ok
         </button>
       </article>
     </div>
   );
-}
+};
 
 export default Email;
