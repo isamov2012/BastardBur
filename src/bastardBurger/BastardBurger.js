@@ -1,8 +1,12 @@
 import { useState } from "react";
 function BastardBurger() {
   const [state, setState] = useState(0);
+
   function Increment() {
-    setState();
+    setState(state + 1);
+  }
+  function Decrement() {
+    state > 1 ? setState(state - 1) : setState(0);
   }
   return (
     <article className="box mb-3">
@@ -11,7 +15,7 @@ function BastardBurger() {
           <img
             id="burgerPic"
             alt="burger"
-            src="https://images.ohmyhosting.se/OhFupB2FniOaYfhq3DC1PKGoVMA=/804x1078/smart/filters:quality(85)/https%3A%2F%2Fbastardburgers.com%2Fwp-content%2Fuploads%2Fsites%2F6%2F2022%2F01%2Fwebb-_0000s_0018_skrovmal.jpg.jpg"
+            src="https://i.imgur.com/cUK1f0E.png"
           />
           <h1>Vegan Norrköping meal</h1>
           <p style={{ fontSize: 12, color: "grey  " }}>
@@ -176,7 +180,12 @@ function BastardBurger() {
             value="+"
           />
           <span>{state}</span>
-          <input type="button" className="button3" value="-" />
+          <input
+            onClick={Decrement}
+            type="button"
+            className="button3"
+            value="-"
+          />
         </div>
       </div>
     </article>
