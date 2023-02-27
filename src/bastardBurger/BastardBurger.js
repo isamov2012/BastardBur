@@ -1,5 +1,9 @@
+import { useState } from "react";
 function BastardBurger() {
-  const [state, setState] = useState;
+  const [state, setState] = useState(0);
+  function Increment() {
+    setState();
+  }
   return (
     <article className="box mb-3">
       <div className="container mb-3">
@@ -165,7 +169,12 @@ function BastardBurger() {
           value=" Add to order"
         />
         <div>
-          <input type="button" className="button3" value="+" />
+          <input
+            onClick={Increment}
+            type="button"
+            className="button3"
+            value="+"
+          />
           <span>{state}</span>
           <input type="button" className="button3" value="-" />
         </div>
