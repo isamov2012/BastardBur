@@ -26,7 +26,7 @@ function BastardBurger() {
           </p>
         </div>
         <div>
-          <p clasNAmes="h4">Adapt</p>
+          <p className="h4">Adapt</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Required*</p>
           <input type="radio" id="radio1" name="group1" />
           <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
