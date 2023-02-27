@@ -28,95 +28,136 @@ function BastardBurger() {
         <div>
           <p class="h4">Adapt</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Required*</p>
-          <input type="radio" />
-          <label>Vegan Norrköping</label>
+          <input type="radio" id="radio1" name="group1" />
+          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+            Vegan Norrköping
+          </label>
         </div>
         <div>
           <br />
           <p class="h4">Add</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 4</p>
           <div id="ingr"></div>
-          <input name="VeganPatty" type="checkBox" />
-          <label htmlFor="VeganPatty">Vegan Patty</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Vegan Patty
+          </label>
           <br />
-          <input name="VeganPatty" type="checkBox" />
-          <label htmlFor="VeganPatty">Vegan Cheese</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Vegan Cheese
+          </label>
           <br />
-          <input name="VeganPatty" type="checkBox" />
-          <label htmlFor="VeganPatty">Sallad</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Salad
+          </label>
           <br />
-          <input name="VeganPatty" type="checkBox" />
-          <label htmlFor="VeganPatty">Red</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Red Onion
+          </label>
         </div>
         <div>
           <br />
           <p class="h4">Remove</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 4</p>
-          <input type="checkBox" />
-          <label>Vegan Patty</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Vegan Patty
+          </label>
           <br />
-          <input type="checkBox" />
-          <label>Vegan Cheese</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Vegan Cheese
+          </label>
           <br />
-          <input type="checkBox" />
-          <label>Sallad</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Salad
+          </label>
           <br />
-          <input type="checkBox" />
-          <label>Red Onion</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Red Onion
+          </label>
           <br />
         </div>
         <div>
           <br />
           <p class="h4">Change</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 1</p>
-          <input type="radio" />
-          <label>Gluten free bread</label>
+          <input type="radio" id="radio1" name="group1" />
+          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+            Gluten free bread
+          </label>
         </div>
         <div>
           <br />
           <p class="h4">Choose Your Side</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Required</p>
-          <input name="ingredient" type="radio" />
-          <label>Shack Fries</label>
+          <input type="radio" id="radio1" name="group1" />
+          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+            Shack Fries
+          </label>
           <br />
-          <input name="ingredient" type="radio" />
-          <label>Shack Fries Large</label>
+          <input type="radio" id="radio1" name="group1" />
+          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+            Shack Fries Large
+          </label>
           <br />
-          <input name="ingredient" type="radio" />
-          <label>Sweet Potato</label>
+          <input type="radio" id="radio1" name="group1" />
+          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+            Sweet Potato
+          </label>
           <br />
-          <input name="ingredient" type="radio" />
-          <label>Sweet Potato Large</label>
+          <input type="radio" id="radio1" name="group1" />
+          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+            Sweet Potato Large
+          </label>
         </div>
         <div>
           <br />
           <p class="h4">Add a plant based dip</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 1</p>
-          <input type="checkBox" />
-          <label>Bastard original Dip</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Bastard original Dip
+          </label>
           <br />
-          <input type="checkBox" />
-          <label>Bastard aioli Dip</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Bastard aioli Dip
+          </label>
           <br />
-          <input type="checkBox" />
-          <label>Truffle mayo Dip</label>
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Truffle mayo Dip
+          </label>
           <br />
-          <input type="checkBox" />
-          <label>Chipotle Dip</label>
-          <br />
+          <input type="checkbox" id="checkbox1" name="group1" />
+          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+            Chipotle Dip
+          </label>
         </div>
         <div>
           <br />
           <p class="h4">Choose Your Drink</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Required</p>
-          <input id="coca" name="ingredient1" type="radio" />
-          <label htmlFor="coca">Coca Cola</label>
+          <input type="radio" id="radio1" name="group1" />
+          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+            Coca Cola
+          </label>
           <br />
-          <input id="CocaColaZero" name="ingredient1" type="radio" />
-          <label htmlFor="CocaColaZero">Coca Cola Zero</label>
+          <input type="radio" id="radio1" name="group1" />
+          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+            Coca Cola Zero
+          </label>
           <br />
-          <input id="Fanta" name="ingredient1" type="radio" />
-          <label htmlFor="Fanta">Fanta</label>
+          <input type="radio" id="radio1" name="group1" />
+          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+            Fanta
+          </label>
           <br />
         </div>
         <br />
