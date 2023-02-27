@@ -43,18 +43,18 @@ function BastardBurger() {
             Vegan Patty
           </label>
           <br />
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox2" name="group1" />
+          <label htmlFor="checkbox2" style={{ paddingLeft: "6px" }}>
             Vegan Cheese
           </label>
           <br />
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox3" name="group1" />
+          <label htmlFor="checkbox3" style={{ paddingLeft: "6px" }}>
             Salad
           </label>
           <br />
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox4" name="group1" />
+          <label htmlFor="checkbox4" style={{ paddingLeft: "6px" }}>
             Red Onion
           </label>
         </div>
@@ -62,23 +62,23 @@ function BastardBurger() {
           <br />
           <p class="h4">Remove</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 4</p>
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox5" name="group1" />
+          <label htmlFor="checkbox5" style={{ paddingLeft: "6px" }}>
             Vegan Patty
           </label>
           <br />
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox6" name="group1" />
+          <label htmlFor="checkbox6" style={{ paddingLeft: "6px" }}>
             Vegan Cheese
           </label>
           <br />
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox7" name="group1" />
+          <label htmlFor="checkbox7" style={{ paddingLeft: "6px" }}>
             Salad
           </label>
           <br />
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox8" name="group1" />
+          <label htmlFor="checkbox8" style={{ paddingLeft: "6px" }}>
             Red Onion
           </label>
           <br />
@@ -87,8 +87,8 @@ function BastardBurger() {
           <br />
           <p class="h4">Change</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 1</p>
-          <input type="radio" id="radio1" name="group1" />
-          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+          <input type="radio" id="radio2" name="group1" />
+          <label htmlFor="radio2" style={{ paddingLeft: "6px" }}>
             Gluten free bread
           </label>
         </div>
@@ -96,23 +96,23 @@ function BastardBurger() {
           <br />
           <p class="h4">Choose Your Side</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Required</p>
-          <input type="radio" id="radio1" name="group1" />
-          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+          <input type="radio" id="radio3" name="group1" />
+          <label htmlFor="radio3" style={{ paddingLeft: "6px" }}>
             Shack Fries
           </label>
           <br />
-          <input type="radio" id="radio1" name="group1" />
-          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+          <input type="radio" id="radio4" name="group1" />
+          <label htmlFor="radio4" style={{ paddingLeft: "6px" }}>
             Shack Fries Large
           </label>
           <br />
-          <input type="radio" id="radio1" name="group1" />
-          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+          <input type="radio" id="radio5" name="group1" />
+          <label htmlFor="radio5" style={{ paddingLeft: "6px" }}>
             Sweet Potato
           </label>
           <br />
-          <input type="radio" id="radio1" name="group1" />
-          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+          <input type="radio" id="radio6" name="group1" />
+          <label htmlFor="radio6" style={{ paddingLeft: "6px" }}>
             Sweet Potato Large
           </label>
         </div>
@@ -120,23 +120,23 @@ function BastardBurger() {
           <br />
           <p class="h4">Add a plant based dip</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 1</p>
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox12" name="group1" />
+          <label htmlFor="checkbox12" style={{ paddingLeft: "6px" }}>
             Bastard original Dip
           </label>
           <br />
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox9" name="group1" />
+          <label htmlFor="checkbox9" style={{ paddingLeft: "6px" }}>
             Bastard aioli Dip
           </label>
           <br />
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox10" name="group1" />
+          <label htmlFor="checkbox10" style={{ paddingLeft: "6px" }}>
             Truffle mayo Dip
           </label>
           <br />
-          <input type="checkbox" id="checkbox1" name="group1" />
-          <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
+          <input type="checkbox" id="checkbox11" name="group1" />
+          <label htmlFor="checkbox11" style={{ paddingLeft: "6px" }}>
             Chipotle Dip
           </label>
         </div>
@@ -144,18 +144,18 @@ function BastardBurger() {
           <br />
           <p class="h4">Choose Your Drink</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Required</p>
-          <input type="radio" id="radio1" name="group1" />
-          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+          <input type="radio" id="radio7" name="group1" />
+          <label htmlFor="radio7" style={{ paddingLeft: "6px" }}>
             Coca Cola
           </label>
           <br />
-          <input type="radio" id="radio1" name="group1" />
-          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+          <input type="radio" id="radio8" name="group1" />
+          <label htmlFor="radio8" style={{ paddingLeft: "6px" }}>
             Coca Cola Zero
           </label>
           <br />
-          <input type="radio" id="radio1" name="group1" />
-          <label htmlFor="radio1" style={{ paddingLeft: "6px" }}>
+          <input type="radio" id="radio9" name="group1" />
+          <label htmlFor="radio9" style={{ paddingLeft: "6px" }}>
             Fanta
           </label>
           <br />
