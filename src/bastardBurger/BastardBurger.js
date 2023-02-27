@@ -23,32 +23,18 @@ function BastardBurger() {
           </p>
         </div>
         <div>
-          <select
-            className="form-select form-select-lg mb-3"
-            aria-label="Default select example">
-            <option>Adapt</option>
-            <option>California</option>
-            <option>Florida</option>
-            <option>Kentucky</option>
-            <option>Texas</option>
-          </select>
+          <p class="h4">Adapt</p>
+          <p style={{ fontSize: 12, color: "grey  " }}>Required*</p>
           <input type="radio" />
           <label>Vegan Norrköping</label>
         </div>
         <div>
-          <select
-            className="form-select form-select-lg mb-3"
-            aria-label="Default select example">
-            <option>Add</option>
-            <option>California</option>
-            <option>Florida</option>
-            <option>Kentucky</option>
-            <option>Texas</option>
-          </select>
-          <div id="ingr">
-            <input name="VeganPatty" type="checkBox" />
-            <label htmlFor="VeganPatty">Vegan Patty</label>
-          </div>
+          <br />
+          <p class="h4">Add</p>
+          <p style={{ fontSize: 12, color: "grey  " }}>Choose up to 4</p>
+          <div id="ingr"></div>
+          <input name="VeganPatty" type="checkBox" />
+          <label htmlFor="VeganPatty">Vegan Patty</label>
           <br />
           <input name="VeganPatty" type="checkBox" />
           <label htmlFor="VeganPatty">Vegan Cheese</label>
@@ -62,7 +48,8 @@ function BastardBurger() {
         <div>
           <select
             className="form-select form-select-lg mb-3"
-            aria-label="Default select example">
+            aria-label="Default select example"
+          >
             <option>Remove</option>
             <option>California</option>
             <option>Florida</option>
@@ -91,7 +78,8 @@ function BastardBurger() {
         <div>
           <select
             className="form-select form-select-lg mb-3"
-            aria-label="Default select example">
+            aria-label="Default select example"
+          >
             <option>Remove</option>
             <option>California</option>
             <option>Florida</option>
@@ -104,7 +92,8 @@ function BastardBurger() {
         <div>
           <select
             className="form-select form-select-lg mb-3"
-            aria-label="Default select example">
+            aria-label="Default select example"
+          >
             <option>Remove</option>
             <option>California</option>
             <option>Florida</option>
@@ -127,7 +116,8 @@ function BastardBurger() {
         <div>
           <select
             className="form-select form-select-lg mb-3"
-            aria-label="Default select example">
+            aria-label="Default select example"
+          >
             <option>Add a plant based dip</option>
             <option>California</option>
             <option>Florida</option>
@@ -150,7 +140,8 @@ function BastardBurger() {
         <div>
           <select
             className="form-select form-select-lg mb-3"
-            aria-label="Default select example">
+            aria-label="Default select example"
+          >
             <option>Choose your drink</option>
             <option>California</option>
             <option>Florida</option>
