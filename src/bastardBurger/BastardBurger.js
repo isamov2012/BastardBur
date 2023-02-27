@@ -1,13 +1,16 @@
 import { useState } from "react";
+
 function BastardBurger() {
   const [state, setState] = useState(0);
 
   function Increment() {
     setState(state + 1);
   }
+
   function Decrement() {
     state > 1 ? setState(state - 1) : setState(0);
   }
+
   return (
     <article className="box mb-3">
       <div className="container mb-3">
