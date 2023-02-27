@@ -9,5 +9,6 @@ function HeadText() {
     </div>
   );
 }
+ss;
 
 export default HeadText;
