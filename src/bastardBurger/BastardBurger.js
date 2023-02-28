@@ -58,32 +58,55 @@ function BastardBurger() {
   const addMenu = (item) => {
     return (
       <>
-        <div className="mt-3">
-          <input
-            key={"remove" + item}
-            type="button"
-            className="add-btn-remove"
-            value="-"
-            id={item}
-            onClick={() => add_remove(item)}
-          />
-          <input
-            key={"add" + item}
-            className="add-btn-add"
-            type="button"
-            value="+"
-            id={item}
-            onClick={() => add_add(item)}
-          />
-          <label className="add-btn-text" htmlFor={item}>
-            {item} {"("}
-            {countAdd[item]}
-            {")"}
-          </label>
-          <span style={{ float: "right", color: "gray" }}>
-            +sek {pricesAdd[item]}
-          </span>
-        </div>
+        {countAdd[item] === 0 ? (
+          <>
+            <div className="mt-3">
+              <input
+                key={"add" + item}
+                className="add-btn-add"
+                type="button"
+                value="Add"
+                id={item}
+                onClick={() => add_add(item)}
+              />
+              <label className="add-btn-text" htmlFor={item}>
+                {item} {"("}
+                {countAdd[item]}
+                {")"}
+              </label>
+              <span style={{ float: "right", color: "gray" }}>
+                +sek {pricesAdd[item]}
+              </span>
+            </div>
+          </>
+        ) : (
+          <div className="mt-3">
+            <input
+              key={"remove" + item}
+              type="button"
+              className="add-btn-remove"
+              value="-"
+              id={item}
+              onClick={() => add_remove(item)}
+            />
+            <input
+              key={"add" + item}
+              className="add-btn-add"
+              type="button"
+              value="+"
+              id={item}
+              onClick={() => add_add(item)}
+            />
+            <label className="add-btn-text" htmlFor={item}>
+              {item} {"("}
+              {countAdd[item]}
+              {")"}
+            </label>
+            <span style={{ float: "right", color: "gray" }}>
+              +sek {pricesAdd[item]}
+            </span>
+          </div>
+        )}
       </>
     );
   };
