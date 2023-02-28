@@ -123,8 +123,8 @@ function BastardBurger() {
   }
 
   return (
-    <article className="box mb-3">
-      <div className="container mb-3">
+    <article className="container mb-3">
+      <div className="box">
         <div className="mb-3">
           <img
             id="burgerPic"

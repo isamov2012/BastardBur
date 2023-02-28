@@ -6,6 +6,7 @@ body {
 
 /* alla element med klassen "box*/
 .box {
+  max-width: 600px;
   padding: 30px;
   background-color: white;
 
@@ -13,12 +14,12 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 550px;
   justify-content: center;
 }
 
 #burgerPic {
-  width: 500px;
+  width: full;
 }
 
 .button3 {
