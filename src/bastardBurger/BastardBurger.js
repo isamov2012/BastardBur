@@ -132,7 +132,7 @@ function BastardBurger() {
 
           {/* Nils commit  */}
           {namesAdd.map(addMenu)}
-          <p className="mt-3">Totalt pris: {calcPrice()}</p>
+          <p className="mt-3">Totalt pris: {calcPrice()}:-</p>
           {/* Slut på Nils commit  */}
 
           {/* <input type="checkbox" id="checkbox1" />
