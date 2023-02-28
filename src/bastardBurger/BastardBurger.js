@@ -1,6 +1,94 @@
 import { useState } from "react";
 
 function BastardBurger() {
+  // Nils commit
+  const price = 179;
+
+  const namesAdd = ["Vegan Patty", "Fejkon", "Vegan cheese", "Jalapeno"];
+
+  const pricesAdd = {
+    "Vegan Patty": 40,
+    Fejkon: 15,
+    "Vegan cheese": 15,
+    Jalapeno: 10,
+  };
+
+  const [countAdd, setCountAdd] = useState({
+    "Vegan Patty": 0,
+    Fejkon: 0,
+    "Vegan cheese": 0,
+    Jalapeno: 0,
+  });
+
+  const sumCountAdd = () => {
+    let sumCount = 0;
+    for (let key in countAdd) {
+      sumCount += countAdd[key];
+    }
+    return sumCount;
+  };
+
+  const add_add = (item) => {
+    if (countAdd[item] < 3 && sumCountAdd() < 4)
+      setCountAdd((countAdd) => {
+        const clonedCountAdd = { ...countAdd };
+        clonedCountAdd[item] = clonedCountAdd[item] + 1;
+        return clonedCountAdd;
+      });
+  };
+
+  const add_remove = (item) => {
+    if (countAdd[item] !== 0) {
+      setCountAdd((countAdd) => {
+        const clonedCountAdd = { ...countAdd };
+        clonedCountAdd[item] = clonedCountAdd[item] - 1;
+        return clonedCountAdd;
+      });
+    }
+  };
+
+  const calcPrice = () => {
+    let sum = 0;
+    for (let key in countAdd) {
+      sum += countAdd[key] * pricesAdd[key];
+    }
+    return sum + price;
+  };
+
+  const addMenu = (item) => {
+    return (
+      <>
+        <div className="mt-3">
+          <input
+            key={"remove" + item}
+            type="button"
+            className="add-btn-remove"
+            value="-"
+            id={item}
+            onClick={() => add_remove(item)}
+          />
+          <input
+            key={"add" + item}
+            className="add-btn-add"
+            type="button"
+            value="+"
+            id={item}
+            onClick={() => add_add(item)}
+          />
+          <label className="add-btn-text" htmlFor={item}>
+            {item} {"("}
+            {countAdd[item]}
+            {")"}
+          </label>
+          <span style={{ float: "right", color: "gray" }}>
+            +sek {pricesAdd[item]}
+          </span>
+        </div>
+      </>
+    );
+  };
+  // Slut på nils commit
+
   const [state, setState] = useState(0);
 
   function Increment() {
@@ -36,9 +124,18 @@ function BastardBurger() {
         <div>
           <br />
           <p className="h4">Add</p>
-          <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 4</p>
+
+          <p style={{ fontSize: 13, color: "grey  " }}>
+            Choose up to 4 and max 3 of each
+          </p>
           <div id="ingr"></div>
-          <input type="checkbox" id="checkbox1" />
+
+          {/* Nils commit  */}
+          {namesAdd.map(addMenu)}
+          <p className="mt-3">Totalt pris: {calcPrice()}</p>
+          {/* Slut på Nils commit  */}
+
+          {/* <input type="checkbox" id="checkbox1" />
           <label htmlFor="checkbox1" style={{ paddingLeft: "6px" }}>
             Vegan Patty
           </label>
@@ -56,10 +153,10 @@ function BastardBurger() {
           <input type="checkbox" id="checkbox4" />
           <label htmlFor="checkbox4" style={{ paddingLeft: "6px" }}>
             Red Onion
-          </label>
+          </label> */}
         </div>
         <div>
-          <br />
+          {/* <br /> */}
           <p className="h4">Remove</p>
           <p style={{ fontSize: 13, color: "grey  " }}>Choose up to 4</p>
           <input type="checkbox" id="checkbox5" />
