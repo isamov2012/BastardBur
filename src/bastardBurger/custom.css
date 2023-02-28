@@ -25,3 +25,30 @@ body {
   border: solid 1px;
   border-radius: 100%;
 }
+
+.lm-1 {
+  margin-left: 10px;
+}
+
+.add-btn-add {
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 0px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+}
+
+.add-btn-remove {
+  height: 50%;
+  border-radius: 50%;
+  border: 0px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+}
+
+.add-btn-text {
+  color: #212529;
+  margin-left: 10px;
+  font-family: system-ui, "Segoe UI";
+  font-size: 16px;
+}
